@@ -13,6 +13,13 @@
 		637102FE1EF7744200B35643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637102FC1EF7744200B35643 /* Main.storyboard */; };
 		637103001EF7744200B35643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637102FF1EF7744200B35643 /* Assets.xcassets */; };
 		637103031EF7744200B35643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637103011EF7744200B35643 /* LaunchScreen.storyboard */; };
+		6371030D1EF7772000B35643 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6371030C1EF7772000B35643 /* HttpRequest.m */; };
+		637A2C961EFA575F007B0249 /* ZXSDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A2C951EFA575F007B0249 /* ZXSDefine.m */; };
+		637A2C9A1EFA59D9007B0249 /* UIView+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A2C991EFA59D9007B0249 /* UIView+View.m */; };
+		637A2C9D1EFA5A4C007B0249 /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A2C9C1EFA5A4C007B0249 /* UIColor+Color.m */; };
+		637A2CA01EFA5A81007B0249 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A2C9F1EFA5A81007B0249 /* UIImage+image.m */; };
+		637A2CA31EFA5B2C007B0249 /* UILabel+label.m in Sources */ = {isa = PBXBuildFile; fileRef = 637A2CA21EFA5B2C007B0249 /* UILabel+label.m */; };
+		DB77BD8D3F9FD2B4AC9CE65F /* libPods-AFNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3B3D0FC91835D5F1ED7A95 /* libPods-AFNet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,22 @@
 		637102FF1EF7744200B35643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		637103021EF7744200B35643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		637103041EF7744200B35643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6371030B1EF7772000B35643 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		6371030C1EF7772000B35643 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		637A2C941EFA575F007B0249 /* ZXSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSDefine.h; sourceTree = "<group>"; };
+		637A2C951EFA575F007B0249 /* ZXSDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSDefine.m; sourceTree = "<group>"; };
+		637A2C971EFA57AA007B0249 /* ZXSTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXSTool.h; sourceTree = "<group>"; };
+		637A2C981EFA59D9007B0249 /* UIView+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+View.h"; sourceTree = "<group>"; };
+		637A2C991EFA59D9007B0249 /* UIView+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+View.m"; sourceTree = "<group>"; };
+		637A2C9B1EFA5A4C007B0249 /* UIColor+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Color.h"; sourceTree = "<group>"; };
+		637A2C9C1EFA5A4C007B0249 /* UIColor+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Color.m"; sourceTree = "<group>"; };
+		637A2C9E1EFA5A81007B0249 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		637A2C9F1EFA5A81007B0249 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		637A2CA11EFA5B2C007B0249 /* UILabel+label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+label.h"; sourceTree = "<group>"; };
+		637A2CA21EFA5B2C007B0249 /* UILabel+label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+label.m"; sourceTree = "<group>"; };
+		6F3B3D0FC91835D5F1ED7A95 /* libPods-AFNet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA129F175CFF3AB345C6324 /* Pods-AFNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNet/Pods-AFNet.debug.xcconfig"; sourceTree = "<group>"; };
+		B615783B8C5EB4A727B377CE /* Pods-AFNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNet/Pods-AFNet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +56,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB77BD8D3F9FD2B4AC9CE65F /* libPods-AFNet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B5C0222ACA28950C6F0601B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F3B3D0FC91835D5F1ED7A95 /* libPods-AFNet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		637102E71EF7744200B35643 = {
 			isa = PBXGroup;
 			children = (
 				637102F21EF7744200B35643 /* AFNet */,
 				637102F11EF7744200B35643 /* Products */,
+				8F859C21736C4FB004958A14 /* Pods */,
+				2B5C0222ACA28950C6F0601B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +92,7 @@
 		637102F21EF7744200B35643 /* AFNet */ = {
 			isa = PBXGroup;
 			children = (
+				6371030A1EF776F100B35643 /* HttpRequset */,
 				637102F61EF7744200B35643 /* AppDelegate.h */,
 				637102F71EF7744200B35643 /* AppDelegate.m */,
 				637102F91EF7744200B35643 /* ViewController.h */,
@@ -79,6 +114,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6371030A1EF776F100B35643 /* HttpRequset */ = {
+			isa = PBXGroup;
+			children = (
+				6371030B1EF7772000B35643 /* HttpRequest.h */,
+				6371030C1EF7772000B35643 /* HttpRequest.m */,
+				637A2C971EFA57AA007B0249 /* ZXSTool.h */,
+				637A2C941EFA575F007B0249 /* ZXSDefine.h */,
+				637A2C951EFA575F007B0249 /* ZXSDefine.m */,
+				637A2C981EFA59D9007B0249 /* UIView+View.h */,
+				637A2C991EFA59D9007B0249 /* UIView+View.m */,
+				637A2C9B1EFA5A4C007B0249 /* UIColor+Color.h */,
+				637A2C9C1EFA5A4C007B0249 /* UIColor+Color.m */,
+				637A2C9E1EFA5A81007B0249 /* UIImage+image.h */,
+				637A2C9F1EFA5A81007B0249 /* UIImage+image.m */,
+				637A2CA11EFA5B2C007B0249 /* UILabel+label.h */,
+				637A2CA21EFA5B2C007B0249 /* UILabel+label.m */,
+			);
+			name = HttpRequset;
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		8F859C21736C4FB004958A14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FA129F175CFF3AB345C6324 /* Pods-AFNet.debug.xcconfig */,
+				B615783B8C5EB4A727B377CE /* Pods-AFNet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 637103071EF7744200B35643 /* Build configuration list for PBXNativeTarget "AFNet" */;
 			buildPhases = (
+				50D2C33919D0D9B124D6FCB7 /* [CP] Check Pods Manifest.lock */,
 				637102EC1EF7744200B35643 /* Sources */,
 				637102ED1EF7744200B35643 /* Frameworks */,
 				637102EE1EF7744200B35643 /* Resources */,
+				4532D8551702521DEB37721F /* [CP] Embed Pods Frameworks */,
+				171F4230BA48E22EA4651155 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +214,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		171F4230BA48E22EA4651155 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNet/Pods-AFNet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4532D8551702521DEB37721F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNet/Pods-AFNet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50D2C33919D0D9B124D6FCB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		637102EC1EF7744200B35643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				637102FB1EF7744200B35643 /* ViewController.m in Sources */,
+				637A2CA01EFA5A81007B0249 /* UIImage+image.m in Sources */,
+				6371030D1EF7772000B35643 /* HttpRequest.m in Sources */,
 				637102F81EF7744200B35643 /* AppDelegate.m in Sources */,
+				637A2C9A1EFA59D9007B0249 /* UIView+View.m in Sources */,
 				637102F51EF7744200B35643 /* main.m in Sources */,
+				637A2CA31EFA5B2C007B0249 /* UILabel+label.m in Sources */,
+				637A2C961EFA575F007B0249 /* ZXSDefine.m in Sources */,
+				637A2C9D1EFA5A4C007B0249 /* UIColor+Color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +391,7 @@
 		};
 		637103081EF7744200B35643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA129F175CFF3AB345C6324 /* Pods-AFNet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A7DKZJ6Y7X;
@@ -281,6 +404,7 @@
 		};
 		637103091EF7744200B35643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B615783B8C5EB4A727B377CE /* Pods-AFNet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A7DKZJ6Y7X;
@@ -310,6 +434,7 @@
 				637103091EF7744200B35643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
